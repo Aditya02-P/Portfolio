@@ -1,0 +1,18 @@
+.contact-section {
+  /* Inherits min-height: 100vh and flex centering from section */
+}
+
+.contact-content {
+  max-width: 600px;
+}
+
+.contact-text {
+  margin-bottom: var(--spacing-xl);
+  font-size: 1.1rem;
+}
+
+.contact-links {
+  display: flex;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+}

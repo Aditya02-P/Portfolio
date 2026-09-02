@@ -1,0 +1,48 @@
+.hero {
+  /* Inherits min-height: 100vh and flex centering from section */
+}
+
+.hero-container {
+  max-width: 800px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: var(--spacing-sm);
+  letter-spacing: -0.04em;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: var(--text-muted);
+  margin-bottom: var(--spacing-lg);
+  font-weight: 400;
+}
+
+.hero-intro {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin-bottom: var(--spacing-xl);
+  line-height: 1.7;
+}
+
+.hero-links {
+  display: flex;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: 4rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.75rem;
+  }
+  
+  .hero-intro {
+    font-size: 1.25rem;
+  }
+}

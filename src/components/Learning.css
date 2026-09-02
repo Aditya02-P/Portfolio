@@ -1,0 +1,21 @@
+.learning-intro {
+  margin-bottom: var(--spacing-lg);
+  color: var(--text-muted);
+}
+
+.learning-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.learning-list li {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  font-size: 0.9rem;
+}
+
+.learning-bullet {
+  color: var(--text-muted);
+}
