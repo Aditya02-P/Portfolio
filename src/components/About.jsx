@@ -14,11 +14,11 @@ const About = () => {
           <div className="about-meta">
             <div className="meta-item">
               <span className="mono text-muted">Focus</span>
-              <span>Backend & Systems</span>
+              <span>Backend & Systems Desigining</span>
             </div>
             <div className="meta-item">
               <span className="mono text-muted">Location</span>
-              <span>New York, NY</span>
+              <span>Bhanjanagar, Odisha</span>
             </div>
             <div className="meta-item">
               <span className="mono text-muted">Status</span>

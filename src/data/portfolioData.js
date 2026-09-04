@@ -1,36 +1,74 @@
 export const personalInfo = {
-  name: "Jane Doe",
+  name: "Aditya Narayan Pradhan",
   title: "Computer Science Student & Software Developer",
   introduction: "I build robust systems and clean interfaces. I am passionate about understanding how software works from the ground up, from backend architecture to frontend experiences.",
   about: "I'm a software engineer focused on building efficient, scalable, and maintainable systems. My interest lies in backend development, system design, and exploring the intricate workings of modern web infrastructure. I approach engineering with a focus on simplicity, readability, and performance.",
-  email: "hello@example.com",
-  github: "https://github.com",
-  linkedin: "https://linkedin.com",
-  resume: "/resume.pdf"
+  email: "pradhanaditya0725@gmail.com",
+  github: "https://github.com/Aditya02-P",
+  linkedin: "https://www.linkedin.com/in/aditya-pradhan-20232s45",
+  resume: "/resuem.pdf"
 };
+
+export const primaryStack = [
+  { name: "Java", role: "JVM & Concurrency" },
+  { name: "Spring Boot", role: "Microservices" },
+  { name: "C++", role: "Systems Programming" },
+  { name: "Node.js", role: "Backend & APIs" },
+  { name: "PostgreSQL", role: "Relational & Indexing" },
+  { name: "Docker", role: "Containers & Linux" }
+];
 
 export const skills = [
   {
+    category: "Backend & Systems",
+    items: [
+      { name: "Spring Boot", primary: true },
+      { name: "Node.js", primary: true },
+      { name: "Multithreading", primary: true },
+      { name: "REST APIs", primary: true },
+      { name: "Java Sockets", primary: true },
+      { name: "Express", primary: false }
+    ]
+  },
+  {
     category: "Languages",
-    items: ["Java", "JavaScript", "TypeScript", "C++", "Python"]
+    items: [
+      { name: "Java", primary: true },
+      { name: "C++", primary: true },
+      { name: "TypeScript", primary: true },
+      { name: "JavaScript", primary: false },
+      { name: "Python", primary: false }
+    ]
+  },
+  {
+    category: "Databases & Storage",
+    items: [
+      { name: "PostgreSQL", primary: true },
+      { name: "MySQL", primary: false },
+      { name: "MongoDB", primary: false }
+    ]
+  },
+  {
+    category: "DevOps & Environment",
+    items: [
+      { name: "Docker", primary: true },
+      { name: "Linux", primary: true },
+      { name: "Git", primary: true },
+      { name: "GitHub", primary: false }
+    ]
   },
   {
     category: "Frontend",
-    items: ["React", "HTML5", "CSS3", "Tailwind CSS"]
-  },
-  {
-    category: "Backend",
-    items: ["Node.js", "Express", "Spring Boot", "REST APIs"]
-  },
-  {
-    category: "Databases",
-    items: ["PostgreSQL", "MySQL", "MongoDB"]
-  },
-  {
-    category: "Tools",
-    items: ["Git", "GitHub", "Docker", "Linux", "Figma"]
+    items: [
+      { name: "React", primary: true },
+      { name: "Tailwind CSS", primary: false },
+      { name: "HTML5", primary: false },
+      { name: "CSS3", primary: false }
+    ]
   }
 ];
+
+
 
 export const projects = [
   {

@@ -8,10 +8,12 @@ import Experience from './components/Experience';
 import Learning from './components/Learning';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import CursorGlow from './components/CursorGlow';
 
 function App() {
   return (
     <>
+      <CursorGlow />
       <Header />
       <main>
         <Hero />
